@@ -39,12 +39,15 @@ setup(
     packages=['external_proc'],
     python_requires='>=3.6,<4.0',
     classifiers=[
-        'Operating System :: Microsoft :: Windows :: Windows 10',
+        'Operating System :: Microsoft :: Windows :: Windows 10 :: Windows 11',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
-        'Programming Language :: Python :: 3.10'
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
+        'Programming Language :: Python :: 3.13',
     ],
     package_data={ 
         'external_proc': ["__init__.py", "_external_proc.pyi", "external_proc.py", "get_proc_x32.exe", "get_proc_x64.exe", ],
