@@ -9,7 +9,7 @@ from pybind11.setup_helpers import (
     naive_recompile,
 )
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 ParallelCompile("NPY_NUM_BUILD_JOBS", needs_recompile=naive_recompile).install()
 
