@@ -9,7 +9,7 @@ from pybind11.setup_helpers import (
     naive_recompile,
 )
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 
 ParallelCompile("NPY_NUM_BUILD_JOBS", needs_recompile=naive_recompile).install()
 
@@ -44,7 +44,7 @@ setup(
     requires=["pybind11"],  # Указываем зависимость от pybind11
     # package_dir = {'': 'lib'},
     packages=["external_proc"],
-    python_requires=">=3.8,<3.13",
+    python_requires=">=3.8,<=3.13",
     classifiers=[
         "Operating System :: Microsoft :: Windows",
         "Programming Language :: Python :: 3.8",
