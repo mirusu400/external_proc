@@ -35,6 +35,8 @@ setup(
     version=__version__,
     author="bananasss00",
     author_email="bananasss00@yandex.com",
+    maintainer="mirusu400",
+    maintainer_email="mirusu400@naver.com",
     description="pybind11 extension",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -42,11 +44,9 @@ setup(
     requires=["pybind11"],  # Указываем зависимость от pybind11
     # package_dir = {'': 'lib'},
     packages=["external_proc"],
-    python_requires=">=3.6,<4.0",
+    python_requires=">=3.8,<3.13",
     classifiers=[
         "Operating System :: Microsoft :: Windows",
-        "Programming Language :: Python :: 3.6",
-        "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",

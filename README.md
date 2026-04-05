@@ -6,7 +6,7 @@
 ## External process memory manager
 
 # Installation
-Ensure you have at least Python 3.6+
+Ensure you have at least Python 3.8+
  ```
  pip install external_proc
  or
