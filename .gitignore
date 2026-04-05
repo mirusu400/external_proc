@@ -9,3 +9,4 @@ external_proc.egg-info
 /upload_pypi.cmd
 /upload_pypi_test.cmd
 /old.git.7z
+.env
